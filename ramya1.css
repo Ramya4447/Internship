@@ -1,0 +1,30 @@
+.textover figcaption {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.textover {
+    position: relative;
+}
+
+/* REQUIRED */
+
+.textover figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* (B) RESPONSIVE IMAGE */
+
+.textover img {
+    width: 100%;
+}
+
+.textover {
+    max-width: 600px;
+}
