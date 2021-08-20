@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root","", "ramya");
+$conn = mysqli_connect("remotemysql.com", "LkNu0Yx9kJ","hSarwM8pAU", "LkNu0Yx9kJ");
 if (isset($_POST['submit'])) {
     echo "hello";
     $first = $_POST["firstname"];
