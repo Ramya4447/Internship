@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "ramya");
+$conn = mysqli_connect("remotemysql.com", "LkNu0Yx9kJ","hSarwM8pAU", "LkNu0Yx9kJ");
 $sql = "SELECT * FROM ask";
 $records = mysqli_query($conn, $sql);
 while ($data = mysqli_fetch_array($records)) {
