@@ -7,7 +7,7 @@ if (isset($_POST['submit'])) {
     $qus = $_POST["subject"];
     $sql = "INSERT INTO ask (firstname,lastname,qustion) VALUES ('$first','$last','$qus')";
     if(mysqli_query($conn,$sql)){
-        header("Location: https://ramya4447.github.io/Internship/ramya2.html");
+        header("Location: ramya2.html");
     }
     else{
         header("Location: ramya2.html");
